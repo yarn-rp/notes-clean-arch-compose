@@ -68,4 +68,10 @@ dependencies {
     kapt "androidx.room:room-compiler:$room_version"
     implementation "androidx.room:room-ktx:$room_version"
     androidTestImplementation "androidx.room:room-testing:$room_version"
+
+    // Coroutines components
+    def coroutines_version = "1.6.4"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version"
+
 }
